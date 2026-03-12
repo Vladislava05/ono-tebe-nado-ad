@@ -1,3 +1,4 @@
+@import url('../fonts/fonts.css');
 *,
 *::before,
 *::after {
@@ -7,7 +8,7 @@
 body {
   width: 1100px;
   margin: 0 auto;
-  font-family: Raleway, sans-serif;
+  font-family: 'Raleway';
 }
 
 h1,
@@ -36,3 +37,18 @@ img {
 button {
   font: inherit;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
