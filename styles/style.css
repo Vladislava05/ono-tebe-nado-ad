@@ -1,7 +1,7 @@
 /* место для вашего кода */
-@import url(global.css);
 @import url('../fonts/fonts.css');
-.header{
+@import url(global.css);
+.header {
     width:1100px;
     height:293px;
     display: flex;
@@ -12,48 +12,43 @@
     font-weight: 400;
     font-style: normal; 
     font-size: 18px;
-   
     letter-spacing: 0;
 }
 
 
-.logo{
+.logo {
   width: 148px;
   height: 105px;
   position:absolute;
   left:478px;
   top:92px;
-  
 }
 
-.header address{
+.header address {
   position:absolute;
   left:810px;
   top:95px;
 }
 
-.header address span{
+.header address span {
   border-bottom: 1px solid black;
   padding-bottom: 2px;
   font-style:normal;
 }
 
-.nav-list{
+.nav-list {
   display: flex;          
   list-style: none;       
   gap: 30px;  
   position:absolute;
   left:50px;
-  top:133px;
-        
-     
+  top:133px;    
 }
 
 .nav-list li {
   list-style: none;
   position: relative; 
   display: inline-block;
-  
 }
 
 .nav-list li:not(:first-child)::before {
@@ -67,18 +62,13 @@
   border: 0.5px solid #000000; 
   background-color: transparent; 
   box-sizing: border-box;
-  border-radius: 50%;
-  
-  
+  border-radius: 50%; 
 }
 
 .nav-list li span {
   border-bottom: 1px solid black;
   padding-bottom: 2px;
 }
-
-
-
 
 .cover {
   width: 1100px;
@@ -91,7 +81,6 @@
   background-size: cover;
   background-position: center;
   position:relative;
- 
 }
 
 .cover-title {
@@ -101,7 +90,6 @@
   font-size: 100px;
   font-weight: 700;
   font-style: bold;
-  width: 100%; 
   display: flex;
   flex-direction: column;
   letter-spacing: 30px;
@@ -177,7 +165,7 @@
   left:794px;
 }
 
-.lots{
+.lots {
   margin-top:180px;
   margin-left:24px;
   margin-right:24px;
@@ -185,7 +173,7 @@
   height:723px;
 }
 
-.lots h1{
+.lots h1 {
   font-family: 'Raleway';
   font-weight: 700;
   font-style: Bold;
@@ -196,7 +184,8 @@
   text-transform: uppercase;
 
 }
-.lots-title{
+
+.lots-title {
   font-family: 'Raleway';
   font-weight: 700;
   font-style: Bold;
@@ -212,7 +201,7 @@
 
 }
 
-.lots-description{
+.lots-description {
   font-family: 'Raleway';
   font-weight: 400;
   font-style: normal;
@@ -226,7 +215,7 @@
   
 }
 
-.lots-item-1{
+.lots-item-1 {
   background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
    url('../images/card-lot-01.jpg');
   background-repeat: no-repeat;
@@ -234,7 +223,7 @@
   background-position: center;
 }
 
-.lots-item-2{
+.lots-item-2 {
   background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
    url('../images/card-lot-02.jpg');
   background-repeat: no-repeat;
@@ -242,7 +231,7 @@
   background-position: center;
 }
 
-.lots-item-3{
+.lots-item-3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
   url('../images/card-lot-03.jpg');
   background-repeat: no-repeat;
@@ -250,16 +239,15 @@
   background-position: center;
 }
 
-.lots-list{
+.lots-list {
   margin-top:27px;
   color: white;
   display: flex;
   gap: 20px;
   
-  
 }
 
-.lots-list li{
+.lots-list li {
   list-style: none;
   width: 334px;
   height: 596px;
@@ -267,7 +255,7 @@
  
 }
 
-.lots-link{
+.lots-link {
   font-family: 'Raleway';
   font-weight: 400;
   font-style: normal;
@@ -281,16 +269,14 @@
   
 }
 
-.about{
+.about {
   width:1052px;
   height:595px;
   margin-top:120px;
   position:relative;
 }
 
-.about-title{
- 
-  font-family: 'Raleway';
+.about-title {
   font-weight: 700;
   font-style: Bold;
   font-size: 40px;
@@ -301,7 +287,7 @@
 
 }
 
-.about-img{
+.about-img {
   width: 148px;
   height: 114px;
   
@@ -321,13 +307,13 @@
   position:absolute;
 }
 
-.about-content{
+.about-content {
   top:133px;
   left:359px;
   position:absolute;
 }
 
-.about-description{
+.about-description {
   margin-top:150px;
   font-family: 'Raleway';
   font-weight: 400;
@@ -339,7 +325,7 @@
 
 }
 
-.footer{
+.footer {
   position:relative;
   width:1100px;
   height:180px;
@@ -349,13 +335,13 @@
   
 }
 
-.footer address{
+.footer address {
   position:absolute;
   left:50px;
 
 }
 
-.footer address span{
+.footer address span {
   border-bottom: 1px solid black;
   padding-bottom: 2px;
   font-family: 'Raleway';
@@ -366,7 +352,7 @@
 
 }
 
-.footer-list{
+.footer-list {
   left:468.6px;
   position:absolute;
   list-style:none;
@@ -380,13 +366,12 @@
 
 }
 
-.icons{
+.icons {
   left: 810px;
   position:absolute;
   display:flex;
   gap: 48px;
   list-style:none;
-
 }
 
 .footer-list li span {
@@ -394,7 +379,7 @@
   padding-bottom: 2px;
 }
 
-.icons img{
+.icons img {
   width:48px;
   height:48px;
 }
